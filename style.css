@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.imgparent {
+    background-color: hsl(212, 45%, 89%);
+    height: 80%;
+    width: 70%;
+    position:  fixed;
+    margin: 5% 5% 15% 15%;
+    padding: 2% 2% 25% 25%;
+    
+}
+
+.theimg{
+    background-color: white;
+    width: 20%;
+    height: 70%;
+    position: fixed;
+    padding: 1%;
+}
+
+@media screen and (max-width:500px) {
+    .imgparent {
+        background-color: hsl(212, 45%, 89%);
+        height: 90%;
+        width: 80%;
+        position:  fixed;
+        margin: 10% 10% 10% 10%;
+        padding: 40% 40% 10% 10%;
+        
+    }
+    .theimg{
+        background-color: white;
+        width: 60%;
+        height: 50%;
+        position: fixed;
+    }
+}

@@ -1,0 +1,98 @@
+body {
+    font-family: roboto;
+    padding: 0;
+    margin: 0;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+footer ul p{
+    display: inline;
+}
+.banner {
+    background-image: url('assets/262517-P5AAPC-731.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.banner div{
+    width: 50%; 
+    align-content: center;
+    font-size: large;
+}
+header, footer{
+    background-color: #4fcdf0;
+    padding: 0;
+    height: 60px;
+    
+}
+header {
+    width: 100%;
+    position: fixed;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.nav p,ul {
+    display: inline;
+}
+.nav p{
+    padding: px;
+}
+.logo {
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px 0 10px 10px;
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+    padding: 8px;
+}
+
+ul .active {
+    background-color: #fff;
+    border-radius: 5px;
+}
+li:hover {
+    background-color: azure;
+    color: black;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form input, select {
+    height: 30px;
+    width: 200px;
+    border:2px solid gainsboro;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+form textarea{
+    height: 130px;
+    width: 250px;
+    border:2px solid gainsboro;
+    border-radius: 10px;
+    margin-left: 5px;
+}
